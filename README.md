@@ -1,12 +1,48 @@
-# React + Vite
+# 🛒 Shopping Cart App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![Redux](https://img.shields.io/badge/Redux-Toolkit-purple?logo=redux)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.3-blue?logo=tailwind-css)
+![Vite](https://img.shields.io/badge/Vite-3-orange?logo=vite)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
 
-Currently, two official plugins are available:
+A modern shopping cart built with **React, Redux Toolkit, Tailwind CSS**, and **Vite**.  
+This app demonstrates fetching products from an API, browsing product details, and managing a cart with global state.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Product Listing** – Browse items fetched from [Fake Store API](https://fakestoreapi.com/)
+- **Product Details Page** – View product images, description, price, and category
+- **Add to Cart** – Increment items, track total quantity and total price
+- **Cart Page** – Review items, remove items, or clear the cart entirely
+- **Responsive UI** – Clean, mobile-friendly layout using Tailwind CSS
+- **Redux Toolkit** – Centralized state management for products & cart
+
+---
+
+## 🖼️ Screenshots
+
+![Product Grid](./screenshots/product-grid.png)
+![Product Detail](./screenshots/product-detail.png)
+![Cart Page](./screenshots/cart-page.png)
+
+---
+
+## ⚙️ Tech Stack
+
+- **React 18**
+- **Redux Toolkit** (state management)
+- **Axios** (API requests)
+- **Tailwind CSS** (styling)
+- **Vite** (development & build tool)
+
+---
+
+## 📦 Installation & Setup
+
+Clone the repo:
+```bash
+git clone https://github.com/jerryshano/shopping-cart.git
+cd shopping-cart
