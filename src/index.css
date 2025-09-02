@@ -1,0 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
+@import "tailwindcss";
+
+body {
+  @apply bg-gray-900 text-gray-400 leading-tight text-emerald-50 font-[Michroma];
+}
